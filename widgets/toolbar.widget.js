@@ -76,16 +76,16 @@ class myWidget extends baseWidget(EventEmitter) {
       mouse: true,
       style: {
         prefix: {
-          fg: 'yellow'
+          fg: 'red'
         },
-        bg: 'green',
+        bg: 'white',
         item: {
-          bg: 'black',
+          bg: 'grey',
           hover: {
-            bg: 'blue'
+            bg: 'aqua'
           },
           focus: {
-            bg: 'blue'
+            bg: 'green'
           }
         },
         selected: {
